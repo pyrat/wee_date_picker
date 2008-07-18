@@ -1,0 +1,28 @@
+WeeDatePicker
+=============
+
+This is a super simple datepicker for your rails apps. It is essentially just a packages version of DatePicker v2.9 by frequency-decoder.com with rails helpers for easy integration.
+
+
+Install
+=======
+
+Currently the contents of the files directory should be copied manually to your public directory. I would like to write a rake task to do this for me. Please do this and submit a patch if you have time.
+
+Example
+=======
+
+In the *head* section of the layout.
+
+<%= yield :date_includes %>
+
+In the template.
+
+<%= load_date_picker %>
+
+Then for each date field you need to do the following. *Remember*: field_names have to be unique on your page.
+
+<%= date_picker :start_date, Date.today %>
+
+
+Copyright (c) 2008 Alastair Brunton, released under the MIT license
