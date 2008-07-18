@@ -1,7 +1,7 @@
 WeeDatePicker
 =============
 
-This is a super simple datepicker for your rails apps. It is essentially just a packages version of DatePicker v2.9 by frequency-decoder.com with rails helpers for easy integration.
+This is a super simple datepicker for your rails apps. It is essentially just a packaged version of DatePicker v2.9 by frequency-decoder.com with rails helpers for easy integration.
 
 
 Install
@@ -23,6 +23,8 @@ In the template.
 Then for each date field you need to do the following. *Remember*: field_names have to be unique on your page.
 
 <%= date_picker :start_date, Date.today %>
+
+Where the first argument is the field_name and the second is the initial value. This must be a date object.
 
 
 Copyright (c) 2008 Alastair Brunton, released under the MIT license
