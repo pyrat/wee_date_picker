@@ -40,7 +40,7 @@
         border:0 none;
         padding:0;
         margin-left:4px;
-        background:transparent url(../images/datepicker/cal.gif) no-repeat 0 0;
+        background:transparent url(../images/weedatepicker/cal.gif) no-repeat 0 0;
         width:16px;
         height:16px;
         margin-top:0;
@@ -110,13 +110,13 @@
         margin:0;
         padding:0;
         border:1px solid #ccc;
-        background:#fff url(../images/datepicker/gradient-e5e5e5-ffffff.gif) repeat-x 0 -20px;
+        background:#fff url(../images/weedatepicker/gradient-e5e5e5-ffffff.gif) repeat-x 0 -20px;
         text-align:center;
         width:100%;
         }
 .datePicker table tfoot td
         {
-        background:#fff url(../images/datepicker/gradient-e5e5e5-ffffff.gif) repeat-x 0 -40px;
+        background:#fff url(../images/weedatepicker/gradient-e5e5e5-ffffff.gif) repeat-x 0 -40px;
         }
 /* Common TD & TH styling */
 .datePicker table td
@@ -126,7 +126,7 @@
         /* Opera requires a line-height bigger than 1em in order to redraw properly */
         line-height:1.2em;
         cursor:default;
-        background:#fff url(../images/datepicker/gradient-e5e5e5-ffffff.gif) repeat-x 0 -50px;
+        background:#fff url(../images/weedatepicker/gradient-e5e5e5-ffffff.gif) repeat-x 0 -50px;
         }
 .datePicker table th
         {
@@ -146,7 +146,7 @@
 /* The "todays date" style */
 .datePicker table td.date-picker-today
         {
-        background:#fff url(../images/datepicker/bullet2.gif) no-repeat 0 0;
+        background:#fff url(../images/weedatepicker/bullet2.gif) no-repeat 0 0;
         color:rgb(100,100,100) !important;
         }
 /* The "selected date" style */
@@ -178,7 +178,7 @@ td.date-picker-highlight
 /* The "active cursor" style */
 .datePicker table td#date-picker-hover
         {
-        background:#fff url(../images/datepicker/bg_header.jpg) no-repeat 0 0;
+        background:#fff url(../images/weedatepicker/bg_header.jpg) no-repeat 0 0;
         cursor:pointer;
         border-color:rgb(100,130,170);
         color:rgb(100,130,170);

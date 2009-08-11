@@ -7,10 +7,10 @@ module WeeDatePicker
 
   def load_date_picker
     content_for(:date_includes) do
-      stylesheet_link_tag('datepicker')
+      stylesheet_link_tag('weedatepicker/datepicker')
     end
     content_for(:date_includes) do
-      javascript_include_tag('datepicker')
+      javascript_include_tag('weedatepicker/datepicker')
     end
     return content_tag(:script, 'datePickerController.create()')
   end
