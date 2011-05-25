@@ -1,6 +1,9 @@
 module WeeDatePicker
 
   def date_picker(field_name, date_obj)
+    unless date_obj
+      date_obj = Time.now
+    end
     tag(:input, {:type => "text", :class => "w8em format-d-m-y divider-dash highlight-days-7 no-transparency",
     :name => field_name, :id => field_name, :value => date_obj.strftime("%d-%m-%Y"), :maxlength => "10", :size => "10"})
   end
